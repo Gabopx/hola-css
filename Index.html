@@ -2,10 +2,81 @@
 <html>
 <head>
 	<title>Hola CSS</title>
+	<style type="text/css">
+
+		body{ 
+			font-family: Arial, sanz-serif;
+			font-size: 13px;
+			background: #000 url('Bio.jpg');
+		}
+		h1{
+			color: red;
+			/*display: inline;*/
+		}
+		.text-center{
+			text-align: center;
+		}
+		#Caja1{
+			background: #000 url('Umbrella.png');
+			color: white;
+			width: 300px;
+			padding-top: 20px; 
+			padding-right: 20px;
+			padding-bottom:  20px;
+			padding-left: 20px;
+			margin: 20px;
+			border-width:: 10px;
+			border-style: dashed;
+			float: left;
+
+		}
+		#Caja2{
+			background: #000;
+			color: white;
+			width: 300px;
+			padding: 20px;
+			margin: 20px;
+			border: dashed 3px  red;
+			float: left;
+
+		}
+		.clr{
+			clear: both;
+		}
+		.mylist{
+			list-style: none;
+			line-height: 2.2em;
+		}
+		li{
+			border-bottom: #666 5px solid;
+
+		}
+	</style>
 </head>
 <body>
-	<h1>Hols CSS</h1>
-	<h2>Presentaciòn</h2>
-
+	<h1>Hola CSS</h1>
+	<h2>Presentacion</h2>
+<div>
+	<h1 class="text-center">BIENVENIDOS</h1>
+	<p class="text-center">Esto es un parrafo</p>
+	<p>Esto es otro parrafo</p>
+</div>
+<div id="Caja1">
+	Esto es la caja uno
+</div>
+<div id="Caja2">
+	Ésta es la caja dos
+</div>
+<div class="clr"></div>
+<ul class="mylist">
+	<li>Lunes</li>
+	<li>Martes</li>
+	<li>Miércoles</li>
+	<li>Jueves</li>
+	<li>Viernes</li>
+	<li>Sábado</li>
+	<li>Domingo</li>
+	
+</ul>
 </body>
 </html>
